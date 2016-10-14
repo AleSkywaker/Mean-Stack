@@ -6,7 +6,17 @@ TODO LIST
   - Si recibe 2 o mas, los suma.
   - Si no es numerico no cuenta
   - Se mostrará en el log los no numericos.
-
-
   
+
+
+
+  instalar repositorio y chrome
+  sudo cp chrome.repo /etc/yum.repos.d/
+  sudo yum -y install google-chrome-stable
+
+
+
+  sudo npm -g install http-server
+
+
 
