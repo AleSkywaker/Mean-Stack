@@ -17,9 +17,61 @@ var otraVariable = "Esto es una variable local"
   for(let i = 0; i<10; i++){
       console.log("valor de i " + i);
   }
- console.log("valor de i al final " + i);
+
+
+
+
+
+
+
+
+//TODO: Buscar una condicion para evaluar si la variable existe
+//console.log("valor de i al final " + i);
 }
 
+console.log("Tipo de datos");
+var tipoDeDatosNumerico = 7;
+var tipoDatoCadena = "siete";
+// Referencia 0x23467182
+var fechaDeEstreno = new Date();
+// Referencia 0x23467182
+var otraFecha = fechaDeEstreno;
+otraFecha.setFullYear(1989);
+console.log("Fecha de estreno " + fechaDeEstreno.getFullYear());
+cambiarYear(otraFecha);
+function cambiarYear(fecha)     {
+//TODO: Asegurarse que lo que llega es de tipo fecha.
+fecha.setFullYear(2011);
+console.log("fecha de la function " + fecha.getFullYear());
+
+}
+
+console.log("Fecha de funcion" + otraFecha.getFullYear());
+console.log("Fecha de estreno" + fechaDeEstreno.getFullYear());
+console.log("Resultado typeof numerico " + typeof tipoDeDatosNumerico);
+console.log("Resultado typeof cadena " + typeof tipoDeDatoCadena);
+console.log("Resultado de un new Date() " + typeof fechaDeEstreno);
+
+function pruebaNumerico(){
+ let numero = new Number(3.43543);
+console.log("Valora almacenado " + numero.valueOf());
+console.log("Valora almacenado " + numero.toFixed());
+console.log("Valora almacenado " + numero.toFixed(4));
 
 
-console.log("Adios mundo cruel!");
+}
+pruebaNumerico();
+
+
+console.log("Referencias");
+function pruebaDeArgumentos(argumento1){
+    console.log("Numero de argumentos enviados " + arguments.length);
+    console.log("Numero de argumentos esperado" + arguments.callee.length);
+    for (let i=0; i<arguments.length; i++){
+        console.log("Posicion : " + i + " valor : " + arguments[i]);
+    }
+
+}
+pruebaDeArgumentos("Alex");
+pruebaDeArgumentos("Alex");
+pruebaDeArgumentos("Alex", 7,25, "otro, new Date()");
