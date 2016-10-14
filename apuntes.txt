@@ -1,0 +1,12 @@
+TODO LIST
+
+ * Function sumar :
+
+  - No puede aceptar menos de 2 parametros.
+  - Si recibe 2 o mas, los suma.
+  - Si no es numerico no cuenta
+  - Se mostrará en el log los no numericos.
+
+
+  
+

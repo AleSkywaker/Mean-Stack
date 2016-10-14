@@ -75,3 +75,28 @@ function pruebaDeArgumentos(argumento1){
 pruebaDeArgumentos("Alex");
 pruebaDeArgumentos("Alex");
 pruebaDeArgumentos("Alex", 7,25, "otro, new Date()");
+
+
+
+console.log("Inicio de ejemplos con js");
+function  testConArrays(){
+    let mi_array = new Array();
+    mi_array[0]=7;
+    mi_array[1]="valor";
+    mi_array[mi_array.length-1];
+    let mi_otro_Array = [];
+    let otro = ["uno", 2, new Date ()];
+    // Arrays asociativos
+    let array_asociativo = new Array();
+    array_asociativo["uno"] = 1;
+    console.log(array_asociativo["uno"]);
+    let persona = new Array();
+    var nombre = "Ruben";
+    var apellido = "Gomez";
+    persona.pruebaDeArgumentos = pruebaDeArgumentos;
+    persona.pruebaDeArgumentos();
+    console.log("Nombre completo = " + persona.nombre + " " + persona.apellido);
+    Array.prototype
+}
+
+testConArrays();
