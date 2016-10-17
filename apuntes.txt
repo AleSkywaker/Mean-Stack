@@ -33,4 +33,3 @@ console.log("El valor de la clave1 es " + miobjeto.clave1);
 console.log("Las claves " + miobjeto.miMetodo());
 
 
-

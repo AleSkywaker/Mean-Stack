@@ -133,3 +133,12 @@ return false;
 
 let mi_array_de_prueba = [1,2,3,4,5];
 console.log(mi_array_de_prueba.econtiene(4));
+
+
+console.log(/texto a validar/.test("si hay texto a validar entonces true"));
+
+let mi_info = {uno:1, dos:2, tres:3};
+console.log(mi_info.dos);
+
+let mi_info2 = [{uno:1, dos:2, tres:3}];
+console.log(mi_info2[0].dos);
