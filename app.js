@@ -99,4 +99,37 @@ function  testConArrays(){
     Array.prototype
 }
 
-testConArrays();
+//testConArrays();
+
+function Miclase(campo1, campo2){
+    this.clave1 = campo1;
+    this.clave2 = campo2;
+
+   
+    
+}
+
+Miclase.prototype.miMetodo = function (){
+      return this.clave1 + "_" + this.clave2;
+    };
+
+var miObjeto = new Miclase("uno", "dos");
+console.log("El valor de la clave1 es " + miObjeto.clave1);
+console.log("Las claves " + miObjeto.miMetodo());
+
+
+
+
+Array.prototype.econtiene = function(obj){
+    for(var i = 0; i<this.length; i++){
+
+    let elementoActual = this[i];
+    if( elementoActual == obj){
+        return true;
+}
+}
+return false;
+}
+
+let mi_array_de_prueba = [1,2,3,4,5];
+console.log(mi_array_de_prueba.econtiene(4));

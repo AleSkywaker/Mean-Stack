@@ -18,5 +18,19 @@ TODO LIST
 
   sudo npm -g install http-server
 
+  function Miclase(campo1, campo2){
+    this.clave1 = campo1;
+    this.clave2 = campo2;
+
+    this.miMetodo = function (){
+      return this.clave1 + "_" + this.clave2;
+    };
+    
+}
+
+var miObjeto = new Miclase("uno", "dos");
+console.log("El valor de la clave1 es " + miobjeto.clave1);
+console.log("Las claves " + miobjeto.miMetodo());
+
 
 
