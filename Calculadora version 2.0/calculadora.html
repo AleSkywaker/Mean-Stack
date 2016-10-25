@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora</title>
+    <link rel="stylesheet" href="#" type="text/css"/>
+</head>
+
+<body>
+  
+    <form name="calcu">
+    <input type="text" name="visor" id="display" value=""> </input>
+    <input type="button" value="1" title="1" onclick="agregarDisplay(1)"> </input>
+    <input type="button" value="2" title="2" onclick="agregarDisplay(value)"> </input>
+    <input type="button" value="+" title="+" onclick="operar()"> </input>
+    <input type="button" value="C" title="C" onclick="limpiar()"> </input>
+    <input type="button" value="<" title="<" onclick="eliminarUltimoNumero()"> </input>
+    <input type="button" value="=" title="=" onclick="igual()""> </input>
+    </form>
+    <script src="calculadora4.js"></script>
+</body>
+</html>
