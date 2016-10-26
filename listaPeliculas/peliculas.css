@@ -1,0 +1,68 @@
+P{
+    font-style: bold;
+    display:inline;
+    margin: .2%;
+}
+#formulario{
+    background-color: gainsboro;
+    border:1px solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+#formulario input{
+    border-radius: 5px;
+    font-size: .9em;
+    background-color: antiquewhite;
+    margin: .5% .5%;
+}
+
+h1{
+    text-align: center;
+}
+input{
+    margin: .2%;
+    text-align: center;
+}
+#botones{
+    margin-top: 2%;
+    background-color: gainsboro;
+    border:1px solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 1%;
+    text-align: center;
+    
+    
+}
+#botones input{
+    border-radius: 5px;
+    font-size: 1.5em;
+    background-color: antiquewhite;
+    margin: 0 5%;
+}
+table {
+    
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+#tabla{
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+}
+th {
+    background-color: antiquewhite;
+}

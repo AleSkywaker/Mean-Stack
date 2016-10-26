@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="peliculas.css">
 </head>
 <body>
-
+<h1>Lista de Peliculas</h1>
+<br/>
+<div id="formulario">
 <form action="">
   <p>ID :</p>
   <input type="text" name="id" value="" />
@@ -16,15 +18,66 @@
   <input type="text" name="titulo" value="" />
   <p>DIRECTOR:</p>
   <input type="text" name="director" value="" />
-  <p>SIPNOSIS:</p>
+  <br/>
+  <p>GENERO:</p>
   <input type="text" name="sipnosis" value="" />
   <p>FECHA:</p>
   <input type="date" name="fecha" value="" />
-  
-
-
 </form>
-
-
+</div>
+<div id="botones">
+<br/>
+<input type="button" value="agregar">
+<input type="button" value="guardar">
+<input type="button" value="actualizar">
+<input type="button" value="eliminar">
+</div>
+<br/>
+<div id="tabla">
+<table>
+  <tr>
+    <th>ID</th>
+    <th>TITULO</th>
+    <th>DIRECTOR</th>
+    <th>GENERO</th>
+    <th>FECHA</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Blade Runner</td>
+    <td>Ridley Scott</td>
+    <td>ciencia-ficcion</td>
+    <td>1982</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Pulp Fiction</td>
+    <td>Tarantino</td>
+    <td>Drama</td>
+    <td>1990</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Termiantor 2</td>
+    <td>GJames Cameron</td>
+    <td>ciencia-ficcion</td>
+    <td>1998</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Dias Extraños</td>
+    <td>Katerin Bigelow</td>
+    <td>ciencia-ficcion</td>
+    <td>2000</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>UnderWorld</td>
+    <td>Desconocido</td>
+    <td>vampiros</td>
+    <td>2002</td>
+  </tr>
+  </div>
+</table>
 </body>
 </html>
