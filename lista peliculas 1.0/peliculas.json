@@ -1,0 +1,39 @@
+{
+  "peliculas": [
+    {
+      "id": 1,
+      "titulo": "Gost in The Shell",
+      "director": "Karima Sakamoto",
+      "genero": "Ciencia ficcion",
+      "fecha": "2000"
+    },
+    {
+      "id": 2,
+      "titulo": "Pulp Fiction",
+      "director": "Tarantino",
+      "genero": "Drama",
+      "fecha": "1999"
+    },
+    {
+      "id": 3,
+      "titulo": "Alien",
+      "director": "Ridley Scott",
+      "genero": "Ciencia-ficcion",
+      "fecha": "1982"
+    },
+    {
+      "id": 8,
+      "titulo": "Terminator",
+      "director": "James Cameron",
+      "genero": "Ciencia-ficcion",
+      "fecha": 1992
+    },
+    {
+      "id": 4,
+      "titulo": "Terminator 2",
+      "director": "James Cameron",
+      "genero": "Ciencia-ficcion",
+      "fecha": 2002
+    }
+  ]
+}
